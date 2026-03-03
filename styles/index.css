@@ -89,6 +89,9 @@ body{
     border-radius:10px;
     border:1px solid var(--border-color-primary);
 }
+.icon{
+    margin: 0 0.2em;
+}
 /* Titolo */
 .titolo{
     margin: 0 auto;

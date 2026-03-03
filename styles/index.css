@@ -23,7 +23,76 @@ body{
   font-style: normal;
 }
 
+/*Variabili*/
+:root{
+    --primary-color: #191D7B;
+    --primary-gradient-color: #2A2C82;
+    --secondary-gradient-color: #5460E6;
+    --card-gradient: linear-gradient(135deg, #2A2C82 0%, #5460E6 100%);
+    --text-color: #FFFFFF;
+    --border-color-primary: #4D58DC;
+    --border-color-secondary: #DADBEA;
+}
+
+/*Utility Classes*/
+.background-primary{
+    background-color:var(--primary-color);
+}
+.background-secondary{
+    background-color:var(--secondary-gradient-color);
+}
+.text-center{
+    text-align:center;
+}
+.text-color{
+    color:var(--text-color);
+}
+
+.text-justify{
+    text-align:justify;
+}
+
+.block-button{
+    display:block;
+    width:100%;
+}
 /*Header*/
 .header-banner{
+    display:block;
     width:100%;
+}
+
+/*Main*/
+.main{
+    background-color:var(--primary-color);
+    padding: 2em 2em;
+}
+/* Download Section */
+.download-section{
+    width: 60%;
+    margin: 0 auto;
+}
+.download-section-text{
+    line-height:1.2;
+}
+.windows-download-button{
+    width:100%;
+    margin:1em auto;
+    padding:0.75em;
+    border-radius:10px;
+    border:1px solid var(--border-color-secondary);
+}
+.open-in-browser-button{
+    width:100%;
+    margin:1em auto;
+    padding:0.75em;
+    border-radius:10px;
+    border:1px solid var(--border-color-primary);
+}
+/* Titolo */
+.titolo{
+    margin: 0 auto;
+    line-height:1.2;
+    text-transform:uppercase;
+    font-size: 28px;
 }

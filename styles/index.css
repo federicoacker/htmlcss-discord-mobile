@@ -51,10 +51,6 @@ body{
     color:var(--text-color);
 }
 
-.text-justify{
-    text-align:justify;
-}
-
 .block-button{
     display:block;
     width:100%;
@@ -108,10 +104,10 @@ body{
 .feature-preview-section{
     position:relative;
     width:95%;
-    margin:3em auto;
+    margin:4em auto;
     padding:3em 2em;
     border-radius:20px;
-    border:1px solid var(--background-gradient);
+   
 }
 .feature-preview-section-text{
     line-height:1.2;

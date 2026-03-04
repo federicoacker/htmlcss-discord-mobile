@@ -68,24 +68,26 @@ body{
 }
 /* Download Section */
 .download-section{
-    width: 60%;
+    width: 75%;
     margin: 0 auto;
 }
 .download-section-text{
     line-height:1.2;
 }
 .windows-download-button{
+    font-size:16px;
     width:100%;
     margin:1em auto;
-    padding:0.75em;
-    border-radius:10px;
+    padding: 1.5em 1.5em;
+    border-radius:20px;
     border:1px solid var(--border-color-secondary);
 }
 .open-in-browser-button{
+    font-size:16px;
     width:100%;
     margin:1em auto;
-    padding:0.75em;
-    border-radius:10px;
+    padding: 1.5em 1.5em;
+    border-radius:20px;
     border:1px solid var(--border-color-primary);
 }
 .icon{

@@ -74,18 +74,16 @@ body{
 .download-section-text{
     line-height:1.2;
 }
-.windows-download-button{
+.download-button{
     font-size:16px;
     margin:1em auto;
     padding: 1.5em 0;
     border-radius:20px;
+}
+.windows-download-button{
     border:1px solid var(--border-color-secondary);
 }
 .open-in-browser-button{
-    font-size:16px;
-    margin:1em auto;
-    padding: 1.5em 0;
-    border-radius:20px;
     border:1px solid var(--border-color-primary);
 }
 .icon{
